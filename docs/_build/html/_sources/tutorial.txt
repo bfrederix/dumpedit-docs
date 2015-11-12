@@ -1,3 +1,4 @@
+.. _tutorial-start:
 
 Improvote Quick Tutorial
 ========================

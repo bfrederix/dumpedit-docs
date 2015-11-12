@@ -6,9 +6,9 @@
    :name: mastertoc
 
    tutorial
-   How a show works <example_show>
+   How an Improvote Show Works <example_show>
 
 Improvote's Documentation!
 ==========================
 
-This is a placeholder for the intro to Improvote's documentation. You can look at the placeholder tutorial.
+This is a placeholder for the intro to Improvote's documentation. You can look at :ref:`tutorial-start`.
