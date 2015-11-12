@@ -7,12 +7,12 @@
    :caption: Table of Contents
    :name: mastertoc
 
-   `Improvote Home <http://www.improvote.com/>`_
+   Improvote Home <http://www.improvote.com/>
    tutorial
    How an Improvote Show Works <example_show>
 
-Improvote's Documentation!
-==========================
+Improvote's Documentation
+=========================
 
 This is a placeholder for the intro to `Improvote <http://www.improvote.com/>`_'s documentation. You can look at :ref:`tutorial-start`.
 
