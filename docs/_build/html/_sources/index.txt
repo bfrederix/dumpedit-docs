@@ -1,25 +1,14 @@
-.. Improvote documentation master file, created by
-   sphinx-quickstart on Thu Nov 12 14:55:21 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Improvote's documentation!
-=====================================
-
-Contents:
+.. Improvote documentation master file
 
 .. toctree::
    :maxdepth: 2
+   :caption: Table of Contents
+   :name: mastertoc
 
-   intro
    tutorial
+   How a show works <example_show>
 
+Improvote's Documentation!
+==========================
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+This is a placeholder for the intro to Improvote's documentation. You can look at the placeholder tutorial.
