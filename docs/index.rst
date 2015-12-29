@@ -14,6 +14,7 @@ You can also check out `Adventure-prov`_ as an example.
 .. toctree::
    :maxdepth: 2
    :caption: Improvote Links
+   
    Improvote Home <http://www.improvote.com/>
 
 .. _quick-tutorials:
@@ -21,6 +22,7 @@ You can also check out `Adventure-prov`_ as an example.
 .. toctree::
    :maxdepth: 2
    :caption: Quick Tutorials
+
    Quick Tutorial for Channel Owners <tutorial>
 
 .. _how-to:
