@@ -3,13 +3,21 @@
 .. _Adventure-prov: http://www.adventure-prov.com/
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Table of Contents
-   :name: mastertoc
-
+   :name: improvotehome
    Improvote Home <http://www.improvote.com/>
-   tutorial
-   How an Improvote Show Works <example_show>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Quick Tutorials
+   :name: quicktutorials
+   Quick Tutorial for Channel Owners <tutorial>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: How Improvote Shows Work
+   :name: masterdocs
+
+   Vote Types <vote_types>
 
 Improvote's Documentation
 =========================
