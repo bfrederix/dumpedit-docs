@@ -13,10 +13,14 @@ Vote Types
 Vote Styles
 -----------
 
-Each **Vote Type** requires a *Vote Style* that defines how the vote should appear during the show. There are *six* different voting styles to choose from.
+| Each **Vote Type** requires a *Vote Style* that defines how the vote should appear during the show.
+There are *six* different voting styles to choose from.
 
-Test Style
-~~~~~~~~~~
+Repeatable Options Style
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Test Style** votes are typically used specifically for testing, meaning that suggestions voted as the winner aren't removed from the suggestion pool when they win.
-You can just vote on the same suggestions again and again. We typically use this paired with an *Admin Suggestions Only* **Suggestion Pool** as a simple vote to get the audience used to the app before we start the show.
+| **Repeatable Options Style** voting means that suggestions voted as the winner aren't
+removed from the suggestion pool when they win. You can **repeatedly** vote on the same options over and over.
+
+| We typically use this paired with an *Admin Suggestions Only* **Suggestion Pool** as a simple "Test" vote
+to get the audience used to the voting portion of the app before we start the show.
