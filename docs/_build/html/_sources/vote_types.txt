@@ -16,10 +16,10 @@ hit the **Start Vote** button to begin the next voting interval.
 
 
 **Example**
-| Intervals must begin with the 0 minute. Each comma separated number after that represents a minute.
-| For example 0,2,7 would have a voting interval begin at zero minutes, then the **Vote Type** timer on the
-| **Show Controls** page will show 2 minutes until the next interval (the time between 0 and 2 minutes),
-| and then the **Show Controls** page will show 5 minutes until the next interval (the time between 2 and 7 minutes).
+  Intervals must begin with the 0 minute. Each comma separated number after that represents a minute.
+  For example 0,2,7 would have a voting interval begin at zero minutes, then the **Vote Type** timer on the
+  **Show Controls** page will show 2 minutes until the next interval (the time between 0 and 2 minutes),
+  and then the **Show Controls** page will show 5 minutes until the next interval (the time between 2 and 7 minutes).
 
 .. _vote-styles:
 
@@ -38,8 +38,8 @@ to vote on for that player.
 
 
 **Example**
-| We'll use a "Character Title" :ref:`suggestion-pools-start` and allow audience members to decide what
-| the name of the selected player's character will be.
+  We'll use a "Character Title" :ref:`suggestion-pools-start` and allow audience members to decide what
+  the name of the selected player's character will be.
 
 Options
 ~~~~~~~
@@ -48,8 +48,8 @@ Options
 
 
 **Example**
-| We'll use a "Locations" :ref:`suggestion-pools-start` and allow audience members to decide what
-| the name of the selected player's character will be.
+  We'll use a "Locations" :ref:`suggestion-pools-start` and allow audience members to decide what
+  the name of the selected player's character will be.
 
 Pre-show Voted
 ~~~~~~~~~~~~~~
@@ -63,8 +63,8 @@ removed from the suggestion pool when they win. You can **repeatedly** vote on t
 
 
 **Example**
-| We typically use this paired with an *Admin Suggestions Only* :ref:`suggestion-pools-start` as a simple "Test" vote
-| to get the audience used to the voting portion of the app before we start the show.
+  We typically use this paired with an *Admin Suggestions Only* :ref:`suggestion-pools-start` as a simple "Test" vote
+  to get the audience used to the voting portion of the app before we start the show.
 
 Vote Type Player Survivor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
