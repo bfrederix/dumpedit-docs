@@ -18,8 +18,7 @@ hit the **Start Vote** button to begin the next voting interval. **Intervals** m
 Each comma separated number after that represents a minute.
 
 
-**Example**
-
+.. note::
   For example 0,2,7 would have a voting interval begin at zero minutes, then the **Vote Type** timer on the
   **Show Controls** page will show 2 minutes until the next interval (the time between 0 and 2 minutes),
   and then the **Show Controls** page will show 5 minutes until the next interval (the time between 2 and 7 minutes).
