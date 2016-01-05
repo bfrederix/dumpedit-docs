@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Vote Types &mdash; Improvote 0.0.1 documentation</title>
+  <title>Vote Type &mdash; Improvote 0.0.1 documentation</title>
   
 
   
@@ -32,7 +32,7 @@
   
     <link rel="top" title="Improvote 0.0.1 documentation" href="index.html"/>
         <link rel="next" title="Shows" href="shows.html"/>
-        <link rel="prev" title="Suggestion Pools" href="suggestion_pools.html"/> 
+        <link rel="prev" title="Suggestion Pool" href="suggestion_pools.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -94,7 +94,7 @@
 <li class="toctree-l1"><a class="reference internal" href="players.html">Players</a></li>
 <li class="toctree-l1"><a class="reference internal" href="suggestion_pools.html">Suggestion Pools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Vote Types</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#intervals">Intervals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#interval">Interval</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#vote-styles">Vote Styles</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#player-options">Player Options</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#options">Options</a></li>
@@ -139,7 +139,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Vote Types</li>
+    <li>Vote Type</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -153,21 +153,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="vote-types">
-<span id="vote-types-start"></span><h1>Vote Types<a class="headerlink" href="#vote-types" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="vote-type">
+<span id="vote-types-start"></span><h1>Vote Type<a class="headerlink" href="#vote-type" title="Permalink to this headline">¶</a></h1>
 <p><strong>Vote Types</strong> are used to define how voting will work during your shows.</p>
-<div class="section" id="intervals">
-<span id="vote-type-intervals"></span><h2>Intervals<a class="headerlink" href="#intervals" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="interval">
+<span id="vote-type-interval"></span><h2>Interval<a class="headerlink" href="#interval" title="Permalink to this headline">¶</a></h2>
 <p><strong>Intervals</strong> allow you to initiate votes at certain minute markers during your show.
 If <em>&#8220;Manual Interval Control&#8221;</em> is selected (the preferred approach), the &#8220;tech&#8221; person in control decides when to
-hit the <strong>Start Vote</strong> button to begin the next voting interval.</p>
-<dl class="docutils">
-<dt><strong>Example</strong></dt>
-<dd>Intervals must begin with the 0 minute. Each comma separated number after that represents a minute.
-For example 0,2,7 would have a voting interval begin at zero minutes, then the <strong>Vote Type</strong> timer on the
+hit the <strong>Start Vote</strong> button to begin the next voting interval. <strong>Intervals</strong> must begin with the 0 minute.
+Each comma separated number after that represents a minute.</p>
+<p><strong>Example</strong></p>
+<blockquote>
+<div>For example 0,2,7 would have a voting interval begin at zero minutes, then the <strong>Vote Type</strong> timer on the
 <strong>Show Controls</strong> page will show 2 minutes until the next interval (the time between 0 and 2 minutes),
-and then the <strong>Show Controls</strong> page will show 5 minutes until the next interval (the time between 2 and 7 minutes).</dd>
-</dl>
+and then the <strong>Show Controls</strong> page will show 5 minutes until the next interval (the time between 2 and 7 minutes).
+(<strong>Warning:</strong> There isn&#8217;t a timer after the last voting interval. Your &#8220;tech&#8221; will have to decide when that interval ends)</div></blockquote>
 </div>
 <div class="section" id="vote-styles">
 <span id="id1"></span><h2>Vote Styles<a class="headerlink" href="#vote-styles" title="Permalink to this headline">¶</a></h2>
@@ -179,7 +179,7 @@ There are <em>six</em> different voting styles to choose from.</p>
 to vote on for that player.</p>
 <dl class="docutils">
 <dt><strong>Example</strong></dt>
-<dd>We&#8217;ll use a &#8220;Character Title&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pools</span></a> and allow audience members to decide what
+<dd>We&#8217;ll use a &#8220;Character Title&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> and allow audience members to decide what
 the name of the selected player&#8217;s character will be.</dd>
 </dl>
 </div>
@@ -188,12 +188,19 @@ the name of the selected player&#8217;s character will be.</dd>
 <p><strong>Options</strong> voting randomly selects a list of suggestions for the audience to vote on.</p>
 <dl class="docutils">
 <dt><strong>Example</strong></dt>
-<dd>We&#8217;ll use a &#8220;Locations&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pools</span></a> and allow audience members to decide what
-the name of the selected player&#8217;s character will be.</dd>
+<dd>We&#8217;ll use a &#8220;Locations&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> and allow audience members to vote on
+what location the scene takes place in.</dd>
 </dl>
 </div>
 <div class="section" id="pre-show-voted">
 <h3>Pre-show Voted<a class="headerlink" href="#pre-show-voted" title="Permalink to this headline">¶</a></h3>
+<p><strong>Pre-show Voted</strong> randomly selects a suggestion from the <strong>Vote Type&#8217;s</strong> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a>
+without any audience voting.</p>
+<dl class="docutils">
+<dt><strong>Example</strong></dt>
+<dd>We use this to introduce a &#8220;Quotes&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> that we&#8217;ll
+use in our scenes so we can introduce the quotes quickly (i.e. without waiting for voting).</dd>
+</dl>
 </div>
 <div class="section" id="repeatable-options">
 <h3>Repeatable Options<a class="headerlink" href="#repeatable-options" title="Permalink to this headline">¶</a></h3>
@@ -201,21 +208,50 @@ the name of the selected player&#8217;s character will be.</dd>
 removed from the suggestion pool when they win. You can <strong>repeatedly</strong> vote on the same options over and over.</p>
 <dl class="docutils">
 <dt><strong>Example</strong></dt>
-<dd>We typically use this paired with an <em>Admin Suggestions Only</em> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pools</span></a> as a simple &#8220;Test&#8221; vote
-to get the audience used to the voting portion of the app before we start the show.</dd>
+<dd>We typically use this paired with an <em>Admin Suggestions Only</em> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> as a simple &#8220;Test&#8221; vote
+to get the audience used to the voting portion of the app before we start the show. <strong>Or</strong> if you are having a improv
+&#8220;duel&#8221; type show, you can use this combined with <em>Admin Suggestions Only</em> to allow the audience to vote for the
+team they liked best.</dd>
 </dl>
 </div>
 <div class="section" id="vote-type-player-survivor">
 <h3>Vote Type Player Survivor<a class="headerlink" href="#vote-type-player-survivor" title="Permalink to this headline">¶</a></h3>
+<p><strong>Vote Type Player Survivor</strong> voting means that for each <strong>Vote Type</strong> <a class="reference internal" href="#vote-type-interval"><span>Interval</span></a>
+the player with the least amount of votes is eliminated from the pool of players for that <strong>Vote Type</strong>.</p>
+<dl class="docutils">
+<dt><strong>Example</strong></dt>
+<dd>We typically use this as a way to play the short-form game &#8220;Survivor&#8221; where a player is eliminated
+after each scene.</dd>
+</dl>
 </div>
 <div class="section" id="show-player-survivor">
 <h3>Show Player Survivor<a class="headerlink" href="#show-player-survivor" title="Permalink to this headline">¶</a></h3>
+<p><strong>Show Player Survivor</strong> voting means that for <strong>THE ENTIRE SHOW</strong> the player with the least amount
+of votes is eliminated from the pool of players for <strong>THE ENTIRE SHOW</strong>.</p>
+<dl class="docutils">
+<dt><strong>Example</strong></dt>
+<dd>We typically use this if we&#8217;re doing a form where players are killed off and never come back.
+It&#8217;s a cruel improv world out there.</dd>
+</dl>
 </div>
 <div class="section" id="vote-type-selected-player-pool">
 <h3>Vote Type Selected Player Pool<a class="headerlink" href="#vote-type-selected-player-pool" title="Permalink to this headline">¶</a></h3>
+<p><strong>Vote Type Selected Player Pool</strong> voting means that for each <strong>Vote Type</strong> <a class="reference internal" href="#vote-type-interval"><span>Interval</span></a>
+the player with the most amount of votes wins and is removed from the pool of players for that <strong>Vote Type</strong>.</p>
+<dl class="docutils">
+<dt><strong>Example</strong></dt>
+<dd>We&#8217;ve never actually used this, but it sounds cool!</dd>
+</dl>
 </div>
 <div class="section" id="show-selected-player-pool">
 <h3>Show Selected Player Pool<a class="headerlink" href="#show-selected-player-pool" title="Permalink to this headline">¶</a></h3>
+<p><strong>Show Selected Player Pool</strong> voting means that for <strong>THE ENTIRE SHOW</strong> the player with the most amount
+of votes wins and is removed from the pool of players for <strong>THE ENTIRE SHOW</strong>.</p>
+<dl class="docutils">
+<dt><strong>Example</strong></dt>
+<dd>We&#8217;ve used this when we&#8217;re feeling ambitous and do a &#8220;Hero&#8217;s Journey&#8221; form where we select a &#8220;Hero&#8221;
+and &#8220;Villian&#8221; from the show&#8217;s pool of players for the entire show.</dd>
+</dl>
 </div>
 </div>
 </div>
@@ -230,7 +266,7 @@ to get the audience used to the voting portion of the app before we start the sh
         <a href="shows.html" class="btn btn-neutral float-right" title="Shows" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="suggestion_pools.html" class="btn btn-neutral" title="Suggestion Pools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="suggestion_pools.html" class="btn btn-neutral" title="Suggestion Pool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

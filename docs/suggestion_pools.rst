@@ -1,4 +1,4 @@
 .. _suggestion-pools-start:
 
-Suggestion Pools
-================
+Suggestion Pool
+===============
