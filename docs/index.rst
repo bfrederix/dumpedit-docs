@@ -2,10 +2,12 @@
 
 .. _Adventure-prov: http://www.adventure-prov.com/
 
-Welcome to Improvote's Documentation
-====================================
+.. _documentation-home:
 
-This is a placeholder for the intro to `Improvote <http://www.improvote.com/>`_'s documentation. You can look at :ref:`tutorial-start`.
+Improvote's Documentation
+=========================
+
+This is a placeholder for the intro to `Improvote <http://www.improvote.com/>`_'s documentation. You can look at :ref:`quick-tutorial-start`.
 
 You can also check out `Adventure-prov`_ as an example.
 
@@ -31,4 +33,7 @@ You can also check out `Adventure-prov`_ as an example.
    :maxdepth: 2
    :caption: How Improvote Shows Work
 
+   Players <players>
+   Suggestion Pools <suggestion_pools>
    Vote Types <vote_types>
+   Shows <shows>

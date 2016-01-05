@@ -31,7 +31,8 @@
 
   
     <link rel="top" title="Improvote 0.0.1 documentation" href="index.html"/>
-        <link rel="prev" title="Improvote Quick Tutorial" href="tutorial.html"/> 
+        <link rel="next" title="Shows" href="shows.html"/>
+        <link rel="prev" title="Suggestion Pools" href="suggestion_pools.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -90,13 +91,24 @@
 </ul>
 <p class="caption"><span class="caption-text">How Improvote Shows Work</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="players.html">Players</a></li>
+<li class="toctree-l1"><a class="reference internal" href="suggestion_pools.html">Suggestion Pools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Vote Types</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#intervals">Intervals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#vote-styles">Vote Styles</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#repeatable-options-style">Repeatable Options Style</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#player-options">Player Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#options">Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pre-show-voted">Pre-show Voted</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#repeatable-options">Repeatable Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vote-type-player-survivor">Vote Type Player Survivor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-player-survivor">Show Player Survivor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vote-type-selected-player-pool">Vote Type Selected Player Pool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-selected-player-pool">Show Selected Player Pool</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="shows.html">Shows</a></li>
 </ul>
 
             
@@ -142,26 +154,64 @@
            <div itemprop="articleBody">
             
   <div class="section" id="vote-types">
-<span id="tutorial-start"></span><h1>Vote Types<a class="headerlink" href="#vote-types" title="Permalink to this headline">¶</a></h1>
+<span id="vote-types-start"></span><h1>Vote Types<a class="headerlink" href="#vote-types" title="Permalink to this headline">¶</a></h1>
 <p><strong>Vote Types</strong> are used to define how voting will work during your shows.
-<strong>Vote Types</strong>:
-* Can have <em>Intervals</em> that allow you to initiate votes at certain minute markers during your show.</p>
+<strong>Vote Types</strong>:</p>
+<div class="section" id="intervals">
+<span id="vote-type-intervals"></span><h2>Intervals<a class="headerlink" href="#intervals" title="Permalink to this headline">¶</a></h2>
+<p><strong>Intervals</strong> allow you to initiate votes at certain minute markers during your show.
+If <em>Manual Interval Control</em> is selected (the preferred approach), the &#8220;tech&#8221; person in control decides when to
+hit the <strong>Start Vote</strong> button to begin the next voting interval.</p>
+<p><strong>Example</strong>
+<a href="#id1"><span class="problematic" id="id2">|</span></a>Intervals must begin with the 0 minute. Each comma separated number after that represents a minute.
+<a href="#id3"><span class="problematic" id="id4">|</span></a>For example 0,2,7 would have a voting interval begin at zero minutes, then the <strong>Vote Type</strong> timer on the
+<a href="#id5"><span class="problematic" id="id6">|</span></a><strong>Show Controls</strong> page will show 2 minutes until the next interval (the time between 0 and 2 minutes),
+<a href="#id7"><span class="problematic" id="id8">|</span></a>and then the <strong>Show Controls</strong> page will show 5 minutes until the next interval (the time between 2 and 7 minutes).</p>
+</div>
 <div class="section" id="vote-styles">
-<span id="id1"></span><h2>Vote Styles<a class="headerlink" href="#vote-styles" title="Permalink to this headline">¶</a></h2>
-<div class="line-block">
-<div class="line">Each <strong>Vote Type</strong> requires a <em>Vote Style</em> that defines how the vote should appear during the show.</div>
+<span id="id9"></span><h2>Vote Styles<a class="headerlink" href="#vote-styles" title="Permalink to this headline">¶</a></h2>
+<p>Each <strong>Vote Type</strong> requires a <em>Vote Style</em> that defines how the vote should appear during the show.
+There are <em>six</em> different voting styles to choose from.</p>
+<div class="section" id="player-options">
+<h3>Player Options<a class="headerlink" href="#player-options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Player Options</strong> voting randomly selects a player and a list of suggestions for audience members
+to vote on for that player.
+|
+<strong>Example</strong>
+<a href="#id10"><span class="problematic" id="id11">|</span></a>We&#8217;ll use a &#8220;Character Title&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pools</span></a> and allow audience members to decide what
+<a href="#id12"><span class="problematic" id="id13">|</span></a>the name of the selected player&#8217;s character will be.</p>
 </div>
-<p>There are <em>six</em> different voting styles to choose from.</p>
-<div class="section" id="repeatable-options-style">
-<h3>Repeatable Options Style<a class="headerlink" href="#repeatable-options-style" title="Permalink to this headline">¶</a></h3>
-<div class="line-block">
-<div class="line"><strong>Repeatable Options Style</strong> voting means that suggestions voted as the winner aren&#8217;t</div>
+<div class="section" id="options">
+<h3>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Options</strong> voting randomly selects a list of suggestions for the audience to vote on.
+|
+<strong>Example</strong>
+<a href="#id14"><span class="problematic" id="id15">|</span></a>We&#8217;ll use a &#8220;Locations&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pools</span></a> and allow audience members to decide what
+<a href="#id16"><span class="problematic" id="id17">|</span></a>the name of the selected player&#8217;s character will be.</p>
 </div>
-<p>removed from the suggestion pool when they win. You can <strong>repeatedly</strong> vote on the same options over and over.</p>
-<div class="line-block">
-<div class="line">We typically use this paired with an <em>Admin Suggestions Only</em> <strong>Suggestion Pool</strong> as a simple &#8220;Test&#8221; vote</div>
+<div class="section" id="pre-show-voted">
+<h3>Pre-show Voted<a class="headerlink" href="#pre-show-voted" title="Permalink to this headline">¶</a></h3>
 </div>
-<p>to get the audience used to the voting portion of the app before we start the show.</p>
+<div class="section" id="repeatable-options">
+<h3>Repeatable Options<a class="headerlink" href="#repeatable-options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Repeatable Options</strong> voting means that suggestions voted as the winner aren&#8217;t
+removed from the suggestion pool when they win. You can <strong>repeatedly</strong> vote on the same options over and over.
+|
+<strong>Example</strong>
+<a href="#id18"><span class="problematic" id="id19">|</span></a>We typically use this paired with an <em>Admin Suggestions Only</em> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pools</span></a> as a simple &#8220;Test&#8221; vote
+<a href="#id20"><span class="problematic" id="id21">|</span></a>to get the audience used to the voting portion of the app before we start the show.</p>
+</div>
+<div class="section" id="vote-type-player-survivor">
+<h3>Vote Type Player Survivor<a class="headerlink" href="#vote-type-player-survivor" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="show-player-survivor">
+<h3>Show Player Survivor<a class="headerlink" href="#show-player-survivor" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="vote-type-selected-player-pool">
+<h3>Vote Type Selected Player Pool<a class="headerlink" href="#vote-type-selected-player-pool" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="show-selected-player-pool">
+<h3>Show Selected Player Pool<a class="headerlink" href="#show-selected-player-pool" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 </div>
@@ -173,8 +223,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="shows.html" class="btn btn-neutral float-right" title="Shows" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="tutorial.html" class="btn btn-neutral" title="Improvote Quick Tutorial" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+        <a href="suggestion_pools.html" class="btn btn-neutral" title="Suggestion Pools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
