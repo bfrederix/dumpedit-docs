@@ -7,6 +7,8 @@ Vote Type
 
 .. _vote-type-interval:
 
+
+
 Interval
 --------
 
@@ -26,11 +28,14 @@ Each comma separated number after that represents a minute.
 .. _vote-styles:
 
 
+
 Vote Styles
 -----------
 
 Each **Vote Type** requires a *Vote Style* that defines how the vote should appear during the show.
 There are *six* different voting styles to choose from.
+
+
 
 Player Options
 ~~~~~~~~~~~~~~
@@ -43,6 +48,8 @@ to vote on for that player.
   We'll use a "Character Title" :ref:`suggestion-pools-start` and allow audience members to decide what
   the name of the selected player's character will be.
 
+
+
 Options
 ~~~~~~~
 
@@ -52,6 +59,8 @@ Options
 **Example**
   We'll use a "Locations" :ref:`suggestion-pools-start` and allow audience members to vote on
   what location the scene takes place in.
+
+
 
 Pre-show Voted
 ~~~~~~~~~~~~~~
@@ -63,6 +72,8 @@ without any audience voting.
 **Example**
   We use this to introduce a "Quotes" :ref:`suggestion-pools-start` that we'll
   use in our scenes so we can introduce the quotes quickly (i.e. without waiting for voting).
+
+
 
 Repeatable Options
 ~~~~~~~~~~~~~~~~~~
@@ -77,6 +88,8 @@ removed from the suggestion pool when they win. You can **repeatedly** vote on t
   "duel" type show, you can use this combined with *Admin Suggestions Only* to allow the audience to vote for the
   team they liked best.
 
+
+
 Vote Type Player Survivor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -88,6 +101,8 @@ the player with the least amount of votes is eliminated from the pool of players
   We typically use this as a way to play the short-form game "Survivor" where a player is eliminated
   after each scene.
 
+
+
 Show Player Survivor
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -95,8 +110,11 @@ Show Player Survivor
 of votes is eliminated from the pool of players for **THE ENTIRE SHOW**.
 
 
-.. example:: We typically use this if we're doing a form where players are killed off and never come back.
-             It's a cruel improv world out there.
+**Example**
+  We typically use this if we're doing a form where players are killed off and never come back.
+  It's a cruel improv world out there.
+
+
 
 Vote Type Selected Player Pool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -107,6 +125,8 @@ the player with the most amount of votes wins and is removed from the pool of pl
 
 **Example**
   We've never actually used this, but it sounds cool!
+
+
 
 Show Selected Player Pool
 ~~~~~~~~~~~~~~~~~~~~~~~~~
