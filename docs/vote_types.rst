@@ -95,9 +95,8 @@ Show Player Survivor
 of votes is eliminated from the pool of players for **THE ENTIRE SHOW**.
 
 
-**Example**
-  We typically use this if we're doing a form where players are killed off and never come back.
-  It's a cruel improv world out there.
+.. example:: We typically use this if we're doing a form where players are killed off and never come back.
+             It's a cruel improv world out there.
 
 Vote Type Selected Player Pool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
