@@ -33,6 +33,7 @@ You can also check out `Adventure-prov`_ as an example.
    :maxdepth: 2
    :caption: How Improvote Shows Work
 
+   Channels <channels>
    Players <players>
    Suggestion Pools <suggestion_pools>
    Vote Types <vote_types>
