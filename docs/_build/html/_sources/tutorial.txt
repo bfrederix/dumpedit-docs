@@ -1,6 +1,6 @@
 .. _quick-tutorial-start:
 
-Improvote Quick Tutorial
+Dumpedit Quick Tutorial
 ========================
 
 Here is the placeholder for the quick tutorial.

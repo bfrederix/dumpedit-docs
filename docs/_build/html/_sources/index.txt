@@ -1,13 +1,13 @@
-.. Improvote documentation master file
+.. Dumpedit documentation master file
 
 .. _Adventure-prov: http://www.adventure-prov.com/
 
 .. _documentation-home:
 
-Improvote's Documentation
+Dumpedit's Documentation
 =========================
 
-This is a placeholder for the intro to `Improvote <http://www.improvote.com/>`_'s documentation. You can look at :ref:`quick-tutorial-start`.
+This is a placeholder for the intro to `Dumpedit <http://www.improvote.com/>`_'s documentation. You can look at :ref:`quick-tutorial-start`.
 
 You can also check out `Adventure-prov`_ as an example..
 
@@ -15,9 +15,9 @@ You can also check out `Adventure-prov`_ as an example..
 
 .. toctree::
    :maxdepth: 2
-   :caption: Improvote Links
+   :caption: Dumpedit Links
 
-   Improvote Home <http://www.improvote.com/>
+   Dumpedit Home <http://www.improvote.com/>
 
 .. _quick-tutorials:
 
@@ -31,7 +31,7 @@ You can also check out `Adventure-prov`_ as an example..
 
 .. toctree::
    :maxdepth: 2
-   :caption: How Improvote Shows Work
+   :caption: How Dumpedit Shows Work
 
    Channels <channels>
    Players <players>
