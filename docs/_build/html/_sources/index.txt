@@ -9,7 +9,7 @@ Improvote's Documentation
 
 This is a placeholder for the intro to `Improvote <http://www.improvote.com/>`_'s documentation. You can look at :ref:`quick-tutorial-start`.
 
-You can also check out `Adventure-prov`_ as an example.
+You can also check out `Adventure-prov`_ as an example..
 
 .. _improvote-links:
 
