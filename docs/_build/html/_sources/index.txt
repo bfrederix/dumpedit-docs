@@ -7,17 +7,17 @@
 Dumpedit's Documentation
 =========================
 
-This is a placeholder for the intro to `Dumpedit <http://www.improvote.com/>`_'s documentation. You can look at :ref:`quick-tutorial-start`.
+This is a placeholder for the intro to `Dumpedit <http://www.dumpedit.com/>`_'s documentation. You can look at :ref:`quick-tutorial-start`.
 
 You can also check out `Adventure-prov`_ as an example..
 
-.. _improvote-links:
+.. _dumpedit-links:
 
 .. toctree::
    :maxdepth: 2
    :caption: Dumpedit Links
 
-   Dumpedit Home <http://www.improvote.com/>
+   Dumpedit Home <http://www.dumpedit.com/>
 
 .. _quick-tutorials:
 
