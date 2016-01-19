@@ -96,15 +96,17 @@
 <li class="toctree-l1"><a class="reference internal" href="suggestion_pools.html">Suggestion Pools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Vote Types</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#interval">Interval</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#disallow-audience-voting">Disallow Audience Voting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#vote-styles">Vote Styles</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#player-options">Player Options</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#options">Options</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pre-show-voted">Pre-show Voted</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#player-options">Player Options</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#repeatable-options">Repeatable Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#repeatable-player-options">Repeatable Player Options</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#vote-type-player-survivor">Vote Type Player Survivor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#show-player-survivor">Show Player Survivor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#vote-type-selected-player-pool">Vote Type Selected Player Pool</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#show-selected-player-pool">Show Selected Player Pool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#all-players">All Players</a></li>
 </ul>
 </li>
 </ul>
@@ -171,20 +173,20 @@ and then the <strong>Show Controls</strong> page will show 5 minutes until the n
 (<strong>Warning:</strong> There isn&#8217;t a timer after the last voting interval. Your &#8220;tech&#8221; will have to decide when that interval ends)</p>
 </div>
 </div>
+<div class="section" id="disallow-audience-voting">
+<h2>Disallow Audience Voting<a class="headerlink" href="#disallow-audience-voting" title="Permalink to this headline">¶</a></h2>
+<p><strong>Disallow Audience Voting</strong> randomly selects a suggestion from the <strong>Vote Type&#8217;s</strong> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a>
+pre-show without any audience voting.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Example:</strong> We use this to introduce a &#8220;Lines from a Hat&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> that we&#8217;ll
+use in our scenes so we can introduce the lines into our scenes quickly (i.e. without waiting for voting).</p>
+</div>
+</div>
 <div class="section" id="vote-styles">
 <span id="id1"></span><h2>Vote Styles<a class="headerlink" href="#vote-styles" title="Permalink to this headline">¶</a></h2>
 <p>Each <strong>Vote Type</strong> requires a <em>Vote Style</em> that defines how the vote should appear during the show.
 There are <em>six</em> different voting styles to choose from.</p>
-<div class="section" id="player-options">
-<h3>Player Options<a class="headerlink" href="#player-options" title="Permalink to this headline">¶</a></h3>
-<p><strong>Player Options</strong> voting randomly selects a player and a list of suggestions for audience members
-to vote on for that player.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last"><strong>Example:</strong> We&#8217;ll use a &#8220;Character Title&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> and allow audience members to decide what
-the name of the selected player&#8217;s character will be.</p>
-</div>
-</div>
 <div class="section" id="options">
 <h3>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h3>
 <p><strong>Options</strong> voting randomly selects a list of suggestions for the audience to vote on.</p>
@@ -194,14 +196,14 @@ the name of the selected player&#8217;s character will be.</p>
 what location the scene takes place in.</p>
 </div>
 </div>
-<div class="section" id="pre-show-voted">
-<h3>Pre-show Voted<a class="headerlink" href="#pre-show-voted" title="Permalink to this headline">¶</a></h3>
-<p><strong>Pre-show Voted</strong> randomly selects a suggestion from the <strong>Vote Type&#8217;s</strong> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a>
-without any audience voting.</p>
+<div class="section" id="player-options">
+<h3>Player Options<a class="headerlink" href="#player-options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Player Options</strong> voting randomly selects a player and a list of suggestions for audience members
+to vote on for that player.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last"><strong>Example:</strong> We use this to introduce a &#8220;Quotes&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> that we&#8217;ll
-use in our scenes so we can introduce the quotes quickly (i.e. without waiting for voting).</p>
+<p class="last"><strong>Example:</strong> We&#8217;ll use a &#8220;Character Title&#8221; <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a> and allow audience members to decide what
+the name of the selected player&#8217;s character will be.</p>
 </div>
 </div>
 <div class="section" id="repeatable-options">
@@ -214,6 +216,18 @@ removed from the suggestion pool when they win. You can <strong>repeatedly</stro
 to get the audience used to the voting portion of the app before we start the show. <strong>Or</strong> if you are having a improv
 &#8220;duel&#8221; type show, you can use this combined with <em>Admin Suggestions Only</em> to allow the audience to vote for the
 team they liked best.</p>
+</div>
+</div>
+<div class="section" id="repeatable-player-options">
+<h3>Repeatable Player Options<a class="headerlink" href="#repeatable-player-options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Repeatable Player Options</strong> voting means that suggestions are assigned to a player and voted on, but the winning
+suggestion isn&#8217;t removed from the suggestion pool when it wins. You can <strong>repeatedly</strong> vote on the same options
+over and over for randomly selected players.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Example:</strong> You would typically pair this with an <em>Admin Suggestions Only</em> <a class="reference internal" href="suggestion_pools.html#suggestion-pools-start"><span>Suggestion Pool</span></a>. We could
+see this used as a short-form &#8220;Kiss, Kill, Marry&#8221; type game where the audience decides which direction a player takes
+next.</p>
 </div>
 </div>
 <div class="section" id="vote-type-player-survivor">
@@ -251,8 +265,18 @@ the player with the most amount of votes wins and is removed from the pool of pl
 of votes wins and is removed from the pool of players for <strong>THE ENTIRE SHOW</strong>.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last"><strong>Example:</strong> We&#8217;ve used this when we&#8217;re feeling ambitous and do a &#8220;Hero&#8217;s Journey&#8221; form where we select a &#8220;Hero&#8221;
+<p class="last"><strong>Example:</strong> We&#8217;ve used this when we&#8217;re doing a &#8220;Hero&#8217;s Journey&#8221; form where we select a &#8220;Hero&#8221;
 and &#8220;Villian&#8221; from the show&#8217;s pool of players for the entire show.</p>
+</div>
+</div>
+<div class="section" id="all-players">
+<h3>All Players<a class="headerlink" href="#all-players" title="Permalink to this headline">¶</a></h3>
+<p><strong>All Players</strong> voting means that you are able to select from all the players in the show, meaning players
+are never removed from the voting.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Example:</strong> This could be used at the end of a scene or show to let the audience decide which player was their
+favorite performer.</p>
 </div>
 </div>
 </div>
