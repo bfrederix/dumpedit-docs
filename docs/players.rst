@@ -1,4 +1,4 @@
 .. _players-start:
 
-Players
-=======
+Player
+======

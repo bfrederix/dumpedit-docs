@@ -1,4 +1,4 @@
 .. _shows-start:
 
-Shows
-=====
+Show
+====
