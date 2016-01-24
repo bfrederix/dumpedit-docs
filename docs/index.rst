@@ -38,3 +38,5 @@ You can also check out `Adventure-prov`_ as an example..
    Suggestion Pools <suggestion_pools>
    Vote Types <vote_types>
    Shows <shows>
+   Show Recaps <show_recaps>
+   Show Leaderboards <show_leaderboardss>
