@@ -3,11 +3,9 @@
 Vote Type
 =========
 
-**Vote Types** are used to define how voting will work during your shows.
+**Vote Types** are used to define how voting will work during your :ref:`shows-start`s.
 
-.. _vote-type-interval:
-
-
+.. _vote-types-interval:
 
 Interval
 --------
@@ -24,6 +22,7 @@ Each comma separated number after that represents a minute.
   and then the **Show Controls** page will show 5 minutes until the next interval (the time between 2 and 7 minutes).
   (**Warning:** There isn't a timer after the last voting interval. Your "tech" will have to decide when that interval ends)
 
+.. _vote-types-disallow-voting:
 
 Disallow Audience Voting
 ------------------------
@@ -40,13 +39,13 @@ pre-show without any audience voting.
 .. _vote-styles:
 
 
-
 Vote Styles
 -----------
 
 Each **Vote Type** requires a *Vote Style* that defines how the vote should appear during the show.
 There are *six* different voting styles to choose from.
 
+.. _vote-styles-options:
 
 Options
 ~~~~~~~
@@ -58,6 +57,7 @@ Options
   **Example:** We'll use a "Locations" :ref:`suggestion-pools-start` and allow audience members to vote on
   what location the scene takes place in.
 
+.. _vote-styles-player-options:
 
 Player Options
 ~~~~~~~~~~~~~~
@@ -69,6 +69,8 @@ to vote on for that player.
 .. note::
   **Example:** We'll use a "Character Title" :ref:`suggestion-pools-start` and allow audience members to decide what
   the name of the selected player's character will be.
+
+.. _vote-styles-repeatable-options:
 
 
 Repeatable Options
@@ -84,6 +86,7 @@ removed from the suggestion pool when they win. You can **repeatedly** vote on t
   "duel" type show, you can use this combined with *Admin Suggestions Only* to allow the audience to vote for the
   team they liked best.
 
+.. _vote-styles-repeatable-player-options:
 
 Repeatable Player Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -98,11 +101,12 @@ over and over for randomly selected players.
   see this used as a short-form "Kiss, Kill, Marry" type game where the audience decides which direction a player takes
   next.
 
+.. _vote-styles-vote-type-player-survivor:
 
 Vote Type Player Survivor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Vote Type Player Survivor** voting means that for each **Vote Type** :ref:`vote-type-interval`
+**Vote Type Player Survivor** voting means that for each **Vote Type** :ref:`vote-types-interval`
 the player with the least amount of votes is eliminated from the pool of players for that **Vote Type**.
 
 
@@ -110,7 +114,7 @@ the player with the least amount of votes is eliminated from the pool of players
   **Example:** We typically use this as a way to play the short-form game "Survivor" where a player is eliminated
   after each scene.
 
-
+.. _vote-styles-show-player-survivor:
 
 Show Player Survivor
 ~~~~~~~~~~~~~~~~~~~~
@@ -123,19 +127,19 @@ of votes is eliminated from the pool of players for **THE ENTIRE SHOW**.
   **Example:** We typically use this if we're doing a form where players are killed off and never come back.
   It's a cruel improv world out there.
 
-
+.. _vote-styles-vote-type-selected-player-pool:
 
 Vote Type Selected Player Pool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Vote Type Selected Player Pool** voting means that for each **Vote Type** :ref:`vote-type-interval`
+**Vote Type Selected Player Pool** voting means that for each **Vote Type** :ref:`vote-types-interval`
 the player with the most amount of votes wins and is removed from the pool of players for that **Vote Type**.
 
 
 .. note::
   **Example:** We've never actually used this, but it sounds cool!
 
-
+.. _vote-styles-show-selected-player-pool:
 
 Show Selected Player Pool
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -148,6 +152,7 @@ of votes wins and is removed from the pool of players for **THE ENTIRE SHOW**.
   **Example:** We've used this when we're doing a "Hero's Journey" form where we select a "Hero"
   and "Villian" from the show's pool of players for the entire show.
 
+.. _vote-styles-all-players:
 
 All Players
 ~~~~~~~~~~~
