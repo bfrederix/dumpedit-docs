@@ -3,7 +3,7 @@
 Channel
 =======
 
-**Channels** are the hub for your shows. Here you can create or edit :ref:`shows-start` s, :ref:`suggestion-pools-start` s,
+**Channels** are the hub for your shows. Here you can create or edit :ref:`Shows<shows-start>`, :ref:`suggestion-pools-start` s,
 :ref:`vote-types-start` s, :ref:`players-start` s, and even export user e-mails that have signed in at your shows.
 **Channels** are where you access the :ref:`shows-show-controller` to direct the show's voting and the
 :ref:`shows-show-display` which is used to display the voting and voting results to the audience. **Channels** are also what
