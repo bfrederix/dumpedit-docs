@@ -32,7 +32,7 @@
   
     <link rel="top" title="Dumpedit 0.0.1 documentation" href="index.html"/>
         <link rel="next" title="Vote Type" href="vote_types.html"/>
-        <link rel="prev" title="Players" href="players.html"/> 
+        <link rel="prev" title="Player" href="players.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -94,11 +94,21 @@
 <li class="toctree-l1"><a class="reference internal" href="channels.html">Channels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="players.html">Players</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Suggestion Pools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#suggestion-pool-description">Suggestion Pool Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#editable-suggestion-pool-fields">Editable Suggestion Pool Fields</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#name">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#display-name">Display Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-suggestion-limit">User Suggestion Limit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin-suggestions-only">Admin Suggestions Only</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#require-login-premium-only-feature">Require Login (Premium Only Feature)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#active">Active</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="vote_types.html">Vote Types</a></li>
 <li class="toctree-l1"><a class="reference internal" href="shows.html">Shows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="show_recaps.html">Show Recaps</a></li>
 </ul>
 
             
@@ -146,14 +156,73 @@
   <div class="section" id="suggestion-pool">
 <span id="suggestion-pools-start"></span><h1>Suggestion Pool<a class="headerlink" href="#suggestion-pool" title="Permalink to this headline">¶</a></h1>
 <p><strong>Suggestion Pools</strong> allow users to enter suggestions of a certain type that are used within the show.
-<strong>Suggestion Pools</strong> appear on the home page and menu bar of your channel so that users can enter
-suggestions anytime after a show is created.</p>
-<div class="section" id="suggestion-pool-description">
-<span id="id1"></span><h2>Suggestion Pool Description<a class="headerlink" href="#suggestion-pool-description" title="Permalink to this headline">¶</a></h2>
-<p>The <strong>Suggestion Pool</strong> <em>Description</em> appears on the suggestion page of your channel when a
+<strong>Suggestion Pools</strong> appear on the home page and menu bar of your <a class="reference internal" href="channels.html#channels-start"><span>Channel</span></a> so that users can enter
+suggestions when a <a class="reference internal" href="shows.html#shows-start"><span>Show</span></a> is created.</p>
+<div class="section" id="editable-suggestion-pool-fields">
+<span id="suggestion-pools-editable-fields"></span><h2>Editable Suggestion Pool Fields<a class="headerlink" href="#editable-suggestion-pool-fields" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="name">
+<span id="suggestion-pools-name"></span><h3>Name<a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h3>
+<p><strong>Name</strong> is the name of the <a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Suggestion Pool Names</strong> must be a combination of letters, numbers, hyphens, or underscores.</p>
+</div>
+</div>
+<div class="section" id="display-name">
+<h3>Display Name<a class="headerlink" href="#display-name" title="Permalink to this headline">¶</a></h3>
+<p><strong>Display Name</strong> is the name of the <a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a> that appears to users.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Suggestion Pool Display Names</strong> must be a combination of letters, numbers, hyphens, or underscores.</p>
+</div>
+</div>
+<div class="section" id="description">
+<span id="suggestion-pools-description"></span><h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p><strong>Suggestion Pool</strong> <em>Description</em> appears on the suggestion page of your channel when a
 show is created and is important because it informs the audience on what type of suggestions
-you want for your show. So if the <strong>Suggestion Pool</strong> was &#8220;Character Titles&#8221;, you might ask that
+you want for your show.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Example:</strong> If the <a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a> was &#8220;Character Titles&#8221;, you might ask that
 users enter an adjective and a noun such as &#8220;The lonely programmer&#8221;.</p>
+</div>
+</div>
+<div class="section" id="user-suggestion-limit">
+<span id="suggestion-pools-user-suggestion-limit"></span><h3>User Suggestion Limit<a class="headerlink" href="#user-suggestion-limit" title="Permalink to this headline">¶</a></h3>
+<p><strong>User Suggestion Limit</strong> limits the amount of suggestions that users can enter for the <a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you have a <em>large</em> audience, you may want to make the limit smaller so that more audience member&#8217;s suggestions get
+into your show. If your audience is <em>small</em>, you may want to make the limit higher so that you have enough suggestions
+to use in your show.</p>
+</div>
+</div>
+<div class="section" id="admin-suggestions-only">
+<span id="suggestion-pools-admin-suggestions-only"></span><h3>Admin Suggestions Only<a class="headerlink" href="#admin-suggestions-only" title="Permalink to this headline">¶</a></h3>
+<p><strong>Admin Suggestions Only</strong> makes it so that only your <a class="reference internal" href="channels.html#channels-start"><span>Channel</span></a>&#8216;s admins can enter suggestions for the
+<a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Example:</strong> You can use this to set up a <a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a> of the improv teams that participated in your
+show (like an improv Duel or competitive improv show). This way you can set the teams in advance and let the audience
+vote on which team won at the end of your show.</p>
+</div>
+</div>
+<div class="section" id="require-login-premium-only-feature">
+<span id="suggestion-pools-require-login"></span><h3>Require Login (Premium Only Feature)<a class="headerlink" href="#require-login-premium-only-feature" title="Permalink to this headline">¶</a></h3>
+<p><strong>Require Login</strong> makes it so that only users that have logged in can enter suggestions for the
+<a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This may make it so less people participate in your show, but it could encourage more users to log into the site
+which gives you access to more audience member&#8217;s e-mails for promoting your show.</p>
+</div>
+</div>
+<div class="section" id="active">
+<span id="suggestion-pools-active"></span><h3>Active<a class="headerlink" href="#active" title="Permalink to this headline">¶</a></h3>
+<p><strong>Active</strong> determines whether or not the <a class="reference internal" href="#suggestion-pools-start"><span>Suggestion Pool</span></a> appears on the <a class="reference internal" href="vote_types.html#vote-types-start"><span>Vote Type</span></a> creation
+page.</p>
+</div>
 </div>
 </div>
 
@@ -167,7 +236,7 @@ users enter an adjective and a noun such as &#8220;The lonely programmer&#8221;.
         <a href="vote_types.html" class="btn btn-neutral float-right" title="Vote Type" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="players.html" class="btn btn-neutral" title="Players" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="players.html" class="btn btn-neutral" title="Player" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

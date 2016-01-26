@@ -184,7 +184,7 @@ Navbar Color (Premium Only Feature)
 
 **Navbar Color** allows you to change the color of your navigation bar at the top of your :ref:`channels-start`'s pages.
 
-.. _channels-buy-tickets:
+.. _channels-background-color:
 
 Background Color (Premium Only Feature)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

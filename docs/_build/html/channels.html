@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Channels &mdash; Dumpedit 0.0.1 documentation</title>
+  <title>Channel &mdash; Dumpedit 0.0.1 documentation</title>
   
 
   
@@ -31,7 +31,7 @@
 
   
     <link rel="top" title="Dumpedit 0.0.1 documentation" href="index.html"/>
-        <link rel="next" title="Players" href="players.html"/>
+        <link rel="next" title="Player" href="players.html"/>
         <link rel="prev" title="Dumpedit Quick Tutorial" href="tutorial.html"/> 
 
   
@@ -91,11 +91,36 @@
 </ul>
 <p class="caption"><span class="caption-text">How Dumpedit Shows Work</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="">Channels</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Channels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-edit-players">Create/Edit Players</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-edit-suggestion-pools">Create/Edit Suggestion Pools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-edit-vote-types">Create/Edit Vote Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-edit-delete-shows">Create/Edit/Delete Shows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#channel-pre-show-instructions">Channel Pre-show Instructions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#export-show-e-mails-premium-only-feature">Export Show E-mails (Premium Only Feature)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#editable-channel-fields">Editable Channel Fields</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#url-name">Url Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#display-name">Display Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#short-description">Short Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logo-image">Logo Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#team-photo">Team Photo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#website">Website</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#facebook-page-premium-only-feature">Facebook Page (Premium Only Feature)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#buy-tickets-link-premium-only-feature">Buy Tickets Link (Premium Only Feature)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#next-show">Next Show</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navbar-color-premium-only-feature">Navbar Color (Premium Only Feature)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#background-color-premium-only-feature">Background Color (Premium Only Feature)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#address">Address</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="players.html">Players</a></li>
 <li class="toctree-l1"><a class="reference internal" href="suggestion_pools.html">Suggestion Pools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vote_types.html">Vote Types</a></li>
 <li class="toctree-l1"><a class="reference internal" href="shows.html">Shows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="show_recaps.html">Show Recaps</a></li>
 </ul>
 
             
@@ -126,7 +151,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Channels</li>
+    <li>Channel</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -140,8 +165,149 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="channels">
-<span id="channels-start"></span><h1>Channels<a class="headerlink" href="#channels" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="channel">
+<span id="channels-start"></span><h1>Channel<a class="headerlink" href="#channel" title="Permalink to this headline">¶</a></h1>
+<p><strong>Channels</strong> are the hub for your shows. Here you can create or edit <span class="xref std std-ref">shows-start`s, :ref:`suggestion-pools-start`s,
+:ref:`vote-types-start`s, :ref:`players-start`s, and even export user e-mails that have signed in at your shows.
+**Channels** are where you access the :ref:`shows-controller</span> to direct the show&#8217;s voting and the
+<span class="xref std std-ref">shows-display</span> which is used to display the voting and voting results to the audience. <strong>Channels</strong> are also what
+your audience interacts with on their mobile browsers to login, enter suggestions, and vote.</p>
+<div class="section" id="create-edit-players">
+<span id="channels-players"></span><h2>Create/Edit Players<a class="headerlink" href="#create-edit-players" title="Permalink to this headline">¶</a></h2>
+<p><strong>Channels</strong> allow you to create or edit <span class="xref std std-ref">players-start`s that peform in your :ref:`shows-start`s. When you create
+a :ref:`shows-start</span>, you can add :ref:<a href="#id1"><span class="problematic" id="id2">`</span></a>players-start`s that users can vote for (or vote for suggestions assigned to the
+player) during your improv show.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only active <span class="xref std std-ref">players-start`s will appear on the :ref:`shows-start</span> creation page.</p>
+</div>
+</div>
+<div class="section" id="create-edit-suggestion-pools">
+<span id="channels-suggestion-pools"></span><h2>Create/Edit Suggestion Pools<a class="headerlink" href="#create-edit-suggestion-pools" title="Permalink to this headline">¶</a></h2>
+<p>Your <strong>Channel</strong> allows you to create or edit :ref:<a href="#id3"><span class="problematic" id="id4">`</span></a>suggestion-pools-start`s, which are types of suggestions that your
+audience can enter before the show. Once users have entered suggestions, they are used in conjunction with
+:ref:<a href="#id5"><span class="problematic" id="id6">`</span></a>vote-types-start`s to allow the audience to vote on the suggestions they&#8217;ve entered.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only active <span class="xref std std-ref">suggestion-pools-start`s will appear on the :ref:`vote-types-start</span> creation page.</p>
+</div>
+</div>
+<div class="section" id="create-edit-vote-types">
+<span id="channels-vote-types"></span><h2>Create/Edit Vote Types<a class="headerlink" href="#create-edit-vote-types" title="Permalink to this headline">¶</a></h2>
+<p><strong>Channels</strong> allow you to create or edit :ref:<a href="#id7"><span class="problematic" id="id8">`</span></a>vote-types-start`s, which are used to determine how the audience
+votes during the show. :ref:<a href="#id9"><span class="problematic" id="id10">`</span></a>vote-types-start`s allow you to vote on suggestions, :ref:<a href="#id11"><span class="problematic" id="id12">`</span></a>players-start`s combined with
+suggestions, or audience members can vote for :ref:<a href="#id13"><span class="problematic" id="id14">`</span></a>players-start`s within the show.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><span class="xref std std-ref">suggestion-pools-start`s aren&#8217;t required for :ref:`vote-types-start`s where you only vote for
+:ref:`players-start`s. Only active :ref:`vote-types-start`s will appear on the :ref:`shows-start</span> creation page.</p>
+</div>
+</div>
+<div class="section" id="create-edit-delete-shows">
+<span id="channels-shows"></span><h2>Create/Edit/Delete Shows<a class="headerlink" href="#create-edit-delete-shows" title="Permalink to this headline">¶</a></h2>
+<p><strong>Channels</strong> allow you to create, edit, or delete <span class="xref std std-ref">shows-start`s, which allow audience members to interact live
+with your improv show through your :ref:`channels-start</span>. <span class="xref std std-ref">shows-start`s allow you to define what votes will take
+place during your improv show and what :ref:`players-start`s are participating in your improv show. You can also add a
+youtube video and photo from your show for the :ref:`show-recaps-start</span>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">:ref:<a href="#id15"><span class="problematic" id="id16">`</span></a>players-start`s are not required to create a show if the selected :ref:<a href="#id17"><span class="problematic" id="id18">`</span></a>vote-types-start`s don&#8217;t require
+players.</p>
+</div>
+</div>
+<div class="section" id="channel-pre-show-instructions">
+<span id="channels-preshow-instructions"></span><h2>Channel Pre-show Instructions<a class="headerlink" href="#channel-pre-show-instructions" title="Permalink to this headline">¶</a></h2>
+<p><strong>Channel Pre-show Instructions</strong> is a page on your channel used to instruct your audience how to interact with the
+show. It informs them how to log into the show, what suggestion types to enter, and encourages them to upvote.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We leave the <strong>Pre-show Instructions</strong> up on the projector before the show so that audience members learn how to use
+the app as they are waiting for the show to begin.</p>
+</div>
+</div>
+<div class="section" id="export-show-e-mails-premium-only-feature">
+<span id="channels-export-emails"></span><h2>Export Show E-mails (Premium Only Feature)<a class="headerlink" href="#export-show-e-mails-premium-only-feature" title="Permalink to this headline">¶</a></h2>
+<p>You can <strong>Export E-mails</strong> of the users that sign in at your show. The exports are CSV (comma separated) format and
+contain the user&#8217;s e-mail address, user id, first name, last name, and submitted suggestions (for show exports only).</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If a user unsubscribes to your mailings, you must remove them from you mailing list according to the Anti-Spam Act.
+Failure to do so could result in a heafty fine or lawsuit. We typically use Mailchimp as our e-mail service to manage
+our mailing lists and create e-mail blasts to announce our shows.</p>
+</div>
+</div>
+<div class="section" id="editable-channel-fields">
+<span id="channels-editable-fields"></span><h2>Editable Channel Fields<a class="headerlink" href="#editable-channel-fields" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="url-name">
+<span id="channels-url-name"></span><h3>Url Name<a class="headerlink" href="#url-name" title="Permalink to this headline">¶</a></h3>
+<p><strong>Url Name</strong> appears as www.dumpedit.com/<strong>your_channel</strong>/ in the site&#8217;s url. This is where users can access your
+<a class="reference internal" href="#channels-start"><span>Channel</span></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Url Names</strong> may only contain letters, numbers, hyphens or underscores.</p>
+</div>
+</div>
+<div class="section" id="display-name">
+<span id="channels-display-name"></span><h3>Display Name<a class="headerlink" href="#display-name" title="Permalink to this headline">¶</a></h3>
+<p><strong>Display Name</strong> is how the name of your <a class="reference internal" href="#channels-start"><span>Channel</span></a> appears on the site. It should typically be the name of
+your theater or show.</p>
+</div>
+<div class="section" id="short-description">
+<span id="channels-short-descripton"></span><h3>Short Description<a class="headerlink" href="#short-description" title="Permalink to this headline">¶</a></h3>
+<p><strong>Short Description</strong> is a short blurb used to describe your show.</p>
+</div>
+<div class="section" id="description">
+<span id="channels-descripton"></span><h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p><strong>Description</strong> is used to describe your show and appears on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s about page.</p>
+</div>
+<div class="section" id="logo-image">
+<span id="channels-logo-image"></span><h3>Logo Image<a class="headerlink" href="#logo-image" title="Permalink to this headline">¶</a></h3>
+<p><strong>Logo Image</strong> appears on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s <span class="xref std std-ref">shows-display</span> page when users aren&#8217;t actively voting.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Logo Images</strong> must be smaller than 2 MBs.</p>
+</div>
+</div>
+<div class="section" id="team-photo">
+<span id="channels-team-photo"></span><h3>Team Photo<a class="headerlink" href="#team-photo" title="Permalink to this headline">¶</a></h3>
+<p><strong>Team Photo</strong> is the photo of your show or cast and appears on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s about page.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Team Photos</strong> must be smaller than 2 MBs.</p>
+</div>
+</div>
+<div class="section" id="website">
+<span id="channels-website"></span><h3>Website<a class="headerlink" href="#website" title="Permalink to this headline">¶</a></h3>
+<p><strong>Website</strong> is the web address of your show or theater and appears on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s about page.</p>
+</div>
+<div class="section" id="facebook-page-premium-only-feature">
+<span id="channels-facebook-page"></span><h3>Facebook Page (Premium Only Feature)<a class="headerlink" href="#facebook-page-premium-only-feature" title="Permalink to this headline">¶</a></h3>
+<p><strong>Facebook Page</strong> is the Facebook page for your show or theater and allows users to &#8220;Like&#8221; your page from your
+<a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s home page, <span class="xref std std-ref">shows-live-vote</span> page, and about page.</p>
+</div>
+<div class="section" id="buy-tickets-link-premium-only-feature">
+<span id="channels-buy-tickets"></span><h3>Buy Tickets Link (Premium Only Feature)<a class="headerlink" href="#buy-tickets-link-premium-only-feature" title="Permalink to this headline">¶</a></h3>
+<p><strong>Buy Tickets Link</strong> is a button on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s home page that links users to your ticket purchasing
+url.</p>
+</div>
+<div class="section" id="next-show">
+<span id="channels-next-show"></span><h3>Next Show<a class="headerlink" href="#next-show" title="Permalink to this headline">¶</a></h3>
+<p><strong>Next Show</strong> appears on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s home page and about page and let&#8217;s users know when your next show
+is.</p>
+</div>
+<div class="section" id="navbar-color-premium-only-feature">
+<span id="channels-navbar-color"></span><h3>Navbar Color (Premium Only Feature)<a class="headerlink" href="#navbar-color-premium-only-feature" title="Permalink to this headline">¶</a></h3>
+<p><strong>Navbar Color</strong> allows you to change the color of your navigation bar at the top of your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s pages.</p>
+</div>
+<div class="section" id="background-color-premium-only-feature">
+<span id="channels-background-color"></span><h3>Background Color (Premium Only Feature)<a class="headerlink" href="#background-color-premium-only-feature" title="Permalink to this headline">¶</a></h3>
+<p><strong>Background Color</strong> allows you to change the background color of your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s pages.</p>
+</div>
+<div class="section" id="address">
+<h3>Address<a class="headerlink" href="#address" title="Permalink to this headline">¶</a></h3>
+<p><strong>Address</strong> helps make your shows easier to access/locate and also appears on your <a class="reference internal" href="#channels-start"><span>Channel</span></a>&#8216;s about page.</p>
+</div>
+</div>
 </div>
 
 
@@ -151,7 +317,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="players.html" class="btn btn-neutral float-right" title="Players" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="players.html" class="btn btn-neutral float-right" title="Player" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="tutorial.html" class="btn btn-neutral" title="Dumpedit Quick Tutorial" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
