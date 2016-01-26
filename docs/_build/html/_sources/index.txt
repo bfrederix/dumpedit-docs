@@ -31,11 +31,18 @@ You can also check out `Adventure-prov`_ as an example..
 
 .. toctree::
    :maxdepth: 2
-   :caption: How Dumpedit Shows Work
+   :caption: How Shows Work
 
    Channels <channels>
    Players <players>
    Suggestion Pools <suggestion_pools>
    Vote Types <vote_types>
    Shows <shows>
+
+.. _other-features:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Extra Features
+
    Show Recaps <show_recaps>
