@@ -3,8 +3,8 @@
 Channel
 =======
 
-**Channels** are the hub for your shows. Here you can create or edit :ref:`Shows<shows-start>`, :ref:`suggestion-pools-start` s,
-:ref:`vote-types-start` s, :ref:`players-start` s, and even export user e-mails that have signed in at your shows.
+**Channels** are the hub for your shows. Here you can create or edit :ref:`Shows<shows-start>`, :ref:`Suggestion Pools<suggestion-pools-start>`,
+:ref:`Vote Types<vote-types-start>`, :ref:`Players<players-start>`, and even export user e-mails that have signed in at your shows.
 **Channels** are where you access the :ref:`shows-show-controller` to direct the show's voting and the
 :ref:`shows-show-display` which is used to display the voting and voting results to the audience. **Channels** are also what
 your audience interacts with on their mobile browsers to login, enter suggestions, and vote.
@@ -14,50 +14,50 @@ your audience interacts with on their mobile browsers to login, enter suggestion
 Create/Edit Players
 -------------------
 
-**Channels** allow you to create or edit :ref:`players-start` sthat peform in your :ref:`shows-start` s. When you create
-a :ref:`shows-start`, you can add :ref:`players-start` sthat users can vote for (or vote for suggestions assigned to the
+**Channels** allow you to create or edit :ref:`Players<players-start>` that peform in your :ref:`Shows<shows-start>`. When you create
+a :ref:`shows-start`, you can add :ref:`Players<players-start>` that users can vote for (or vote for suggestions assigned to the
 player) during your improv show.
 
 .. note::
-   Only active :ref:`players-start` swill appear on the :ref:`shows-start` creation page.
+   Only active :ref:`Players<players-start>` will appear on the :ref:`shows-start` creation page.
 
 .. _channels-suggestion-pools:
 
 Create/Edit Suggestion Pools
 ----------------------------
 
-Your **Channel** allows you to create or edit :ref:`suggestion-pools-start` s, which are types of suggestions that your
+Your **Channel** allows you to create or edit :ref:`Suggestion Pools<suggestion-pools-start>`, which are types of suggestions that your
 audience can enter before the show. Once users have entered suggestions, they are used in conjunction with
-:ref:`vote-types-start` sto allow the audience to vote on the suggestions they've entered.
+:ref:`Vote Types<vote-types-start>` to allow the audience to vote on the suggestions they've entered.
 
 .. note::
-   Only active :ref:`suggestion-pools-start` s will appear on the :ref:`vote-types-start` creation page.
+   Only active :ref:`Suggestion Pools<suggestion-pools-start>` will appear on the :ref:`vote-types-start` creation page.
 
 .. _channels-vote-types:
 
 Create/Edit Vote Types
 ----------------------
 
-**Channels** allow you to create or edit :ref:`vote-types-start` s, which are used to determine how the audience
-votes during the show. :ref:`vote-types-start` s allow you to vote on suggestions, :ref:`players-start` s combined with
-suggestions, or audience members can vote for :ref:`players-start` s within the show.
+**Channels** allow you to create or edit :ref:`Vote Types<vote-types-start>`, which are used to determine how the audience
+votes during the show. :ref:`Vote Types<vote-types-start>` allow you to vote on suggestions, :ref:`Players<players-start>` combined with
+suggestions, or audience members can vote for :ref:`Players<players-start>` within the show.
 
 .. note::
-  :ref:`suggestion-pools-start` s aren't required for :ref:`vote-types-start` s where you only vote for
-  :ref:`players-start` s. Only active :ref:`vote-types-start` s will appear on the :ref:`shows-start` creation page.
+  :ref:`Suggestion Pools<suggestion-pools-start>` aren't required for :ref:`Vote Types<vote-types-start>` where you only vote for
+  :ref:`Players<players-start>`. Only active :ref:`Vote Types<vote-types-start>` will appear on the :ref:`shows-start` creation page.
 
 .. _channels-shows:
 
 Create/Edit/Delete Shows
 ------------------------
 
-**Channels** allow you to create, edit, or delete :ref:`shows-start` s, which allow audience members to interact live
-with your improv show through your :ref:`channels-start`. :ref:`shows-start` s allow you to define what votes will take
-place during your improv show and what :ref:`players-start` s are participating in your improv show. You can also add a
+**Channels** allow you to create, edit, or delete :ref:`Shows<shows-start>`, which allow audience members to interact live
+with your improv show through your :ref:`channels-start`. :ref:`Shows<shows-start>` allow you to define what votes will take
+place during your improv show and what :ref:`Players<players-start>` are participating in your improv show. You can also add a
 youtube video and photo from your show for the :ref:`show-recaps-start`.
 
 .. note::
-  :ref:`players-start` s are not required to create a show if the selected :ref:`vote-types-start` s don't require
+  :ref:`Players<players-start>` are not required to create a show if the selected :ref:`Vote Types<vote-types-start>` don't require
   players.
 
 
