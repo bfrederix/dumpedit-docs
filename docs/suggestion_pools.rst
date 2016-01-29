@@ -36,7 +36,7 @@ Description
 ~~~~~~~~~~~
 
 **Suggestion Pool** *Description* appears on the suggestion page of your channel when a
-show is created and is important because it informs the audience on what type of suggestions
+show is created, supports `Markdown <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_, and is important because it informs the audience on what type of suggestions
 you want for your show.
 
 .. note::
